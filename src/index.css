@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Quicksand", "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #02040c;
+    color: #f3f4f6;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Float Star Animations for a living, breathing background */
+@keyframes float-star-0 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateY(-50px) translateX(25px) scale(1.3);
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(-100px) translateX(0) scale(1);
+    opacity: 0.25;
+  }
+}
+
+@keyframes float-star-1 {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.8);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translateY(60px) translateX(-35px) scale(1.4);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(0.8);
+    opacity: 0.15;
+  }
+}
+
+@keyframes float-star-2 {
+  0% {
+    transform: translateY(0) translateX(0) scale(1.1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-30px) translateX(-25px) scale(0.7);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1.1);
+    opacity: 0.3;
+  }
+}
+
+@keyframes float-star-3 {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.9);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(40px) translateX(30px) scale(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(0.9);
+    opacity: 0.2;
+  }
+}
+
+/* Neon utilities and glowing glassmorphism effects */
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
+  border-color: rgba(6, 182, 212, 0.35);
+}
+
+.glow-pink {
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.2);
+  border-color: rgba(236, 72, 153, 0.35);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+  border-color: rgba(139, 92, 246, 0.35);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.2);
+  border-color: rgba(234, 179, 8, 0.35);
+}
+
+/* Soft Premium Glassmorphism panel styling */
+.cyber-glass {
+  background: rgba(8, 12, 24, 0.55);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cyber-glass-bright {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.cyber-glass-input {
+  background: rgba(2, 4, 10, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cyber-glass-input:focus {
+  border-color: rgba(6, 182, 212, 0.5);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.15);
+}
+
+/* Custom soft cosmic grid overlay background */
+.space-grid {
+  background-image: 
+    linear-gradient(rgba(6, 182, 212, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 182, 212, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Scanline visual effect */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 15, 30, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.8);
+}
