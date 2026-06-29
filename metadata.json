@@ -1,0 +1,6 @@
+{
+  "name": "Orbital",
+  "description": "An AI-powered productivity companion that prioritizes tasks dynamically based on user productivity metrics and deadlines.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
