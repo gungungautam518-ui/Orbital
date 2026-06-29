@@ -1,0 +1,373 @@
+{
+  "users": [
+    {
+      "email": "coolschool0000@gmail.com",
+      "accountStatus": "active",
+      "fullName": "gungun",
+      "id": "usr-g31ku3p8h",
+      "lastLogin": "2026-06-28T09:22:56.738Z",
+      "authProvider": "local",
+      "role": "user",
+      "passwordHash": "$2b$10$hJaErSsXmjF1HBseUDGOze4JDd098pRkgvQqYn1nhX9nRYw7nIkaW",
+      "createdAt": "2026-06-27T10:06:15.140Z",
+      "username": "gungun"
+    }
+  ],
+  "tasks": [
+    {
+      "aiSuggestedSlot": "Morning Focus Block",
+      "description": "Assemble and polish the Q3 financial statement for review by stakeholders.",
+      "priorityScore": 98,
+      "category": "Work",
+      "status": "pending",
+      "aiPriorityLabel": "Critical",
+      "deadline": "2026-06-26T17:00",
+      "title": "Complete Q3 Financial Report",
+      "duration": 120,
+      "id": "task-1",
+      "aiReasoning": "Your Q3 financial ledger is drifting deep into the gravity well of overdue space debris—engage main thrusters to resolve it immediately.",
+      "energyRequired": "High",
+      "createdAt": "2026-06-25T08:00:00Z"
+    },
+    {
+      "description": "Analyze and document the new OAuth interfaces for the gateway.",
+      "aiSuggestedSlot": "Morning Focus Block",
+      "priorityScore": 75,
+      "status": "pending",
+      "aiPriorityLabel": "Medium",
+      "category": "Work",
+      "title": "Review API documentation",
+      "duration": 60,
+      "deadline": "2026-06-28T12:00",
+      "id": "task-2",
+      "energyRequired": "Medium",
+      "aiReasoning": "Reviewing the OAuth gateways will shield our communication arrays from rogue hacker EMP bursts.",
+      "createdAt": "2026-06-25T09:00:00Z"
+    },
+    {
+      "description": "Draft daily progress checklist and system metrics overview.",
+      "aiSuggestedSlot": "Low-power Aux Cycle",
+      "priorityScore": 85,
+      "aiPriorityLabel": "High",
+      "status": "pending",
+      "category": "Work",
+      "duration": 30,
+      "title": "Prepare standup notes",
+      "deadline": "2026-06-26T09:00",
+      "id": "task-3",
+      "aiReasoning": "Processing these stale standup logs requires immediate quantum bandwidth allocation before our next orbital shift.",
+      "energyRequired": "Low",
+      "createdAt": "2026-06-25T09:30:00Z"
+    },
+    {
+      "energyRequired": "High",
+      "aiReasoning": "Physical kinetic energy levels have already been successfully fortified; propulsion systems are optimal.",
+      "createdAt": "2026-06-25T10:00:00Z",
+      "id": "task-4",
+      "category": "Health",
+      "aiPriorityLabel": "Low",
+      "status": "completed",
+      "deadline": "2026-06-25T20:00",
+      "duration": 60,
+      "title": "Gym session",
+      "aiSuggestedSlot": "Solar Recharge Hour",
+      "description": "Perform physical training and endurance simulation.",
+      "priorityScore": 0
+    },
+    {
+      "title": "Study Data Structures & Algorithms",
+      "duration": 60,
+      "deadline": "2026-06-28T18:00",
+      "status": "pending",
+      "aiPriorityLabel": "Medium",
+      "category": "Work",
+      "priorityScore": 70,
+      "description": "Begin studying Data Structures and Algorithms (DSA).",
+      "aiSuggestedSlot": "Solar Recharge Hour",
+      "createdAt": "2026-06-27T10:38:17.378Z",
+      "aiReasoning": "Upgrading your core DSA subroutines is vital to safely navigate the hyper-dense information asteroid belt.",
+      "energyRequired": "High",
+      "id": "task-1782556702390"
+    },
+    {
+      "deadline": "2026-06-27T11:00",
+      "title": "Drink water",
+      "duration": 5,
+      "category": "Health",
+      "aiPriorityLabel": "High",
+      "status": "completed",
+      "priorityScore": 70,
+      "aiSuggestedSlot": "Calculated Slot",
+      "description": "Take a moment to hydrate and maintain optimal energy levels.",
+      "createdAt": "2026-06-27T10:39:08.587Z",
+      "aiReasoning": "Parsed and scheduled via Aibi Voice Assistant.",
+      "energyRequired": "Low",
+      "id": "task-1782556752507"
+    },
+    {
+      "id": "task-1782580429697",
+      "userId": "usr-g31ku3p8h",
+      "createdAt": "2026-06-27T17:13:44.324Z",
+      "aiReasoning": "Parsed and scheduled via Aibi Voice Assistant.",
+      "energyRequired": "Medium",
+      "priorityScore": 70,
+      "aiSuggestedSlot": "Calculated Slot",
+      "description": "A high-priority Zoom meeting with Tiger.",
+      "deadline": "2026-07-27T09:00",
+      "title": "Tiger Zoom Meeting",
+      "duration": 30,
+      "category": "Urgent",
+      "aiPriorityLabel": "High",
+      "status": "pending"
+    },
+    {
+      "description": "Drive to Nani's house (about 1 hour drive) and spend time with her.",
+      "aiSuggestedSlot": "Calculated Slot",
+      "priorityScore": 70,
+      "status": "pending",
+      "aiPriorityLabel": "High",
+      "category": "Personal",
+      "duration": 120,
+      "title": "Meet Nani",
+      "deadline": "2026-06-28T09:00",
+      "userId": "usr-g31ku3p8h",
+      "id": "task-1782581031614",
+      "energyRequired": "Medium",
+      "aiReasoning": "Parsed and scheduled via Aibi Voice Assistant.",
+      "createdAt": "2026-06-27T17:23:45.192Z"
+    },
+    {
+      "energyRequired": "Low",
+      "aiReasoning": "Parsed and scheduled via Aibi Voice Assistant.",
+      "createdAt": "2026-06-29T08:44:49.099Z",
+      "userId": "usr-g31ku3p8h",
+      "id": "task-1782722695210",
+      "status": "pending",
+      "aiPriorityLabel": "High",
+      "category": "Health",
+      "duration": 5,
+      "title": "Drink water",
+      "deadline": "2026-06-29T08:49:49",
+      "description": "Reminder to drink water as requested.",
+      "aiSuggestedSlot": "Calculated Slot",
+      "priorityScore": 70
+    },
+    {
+      "title": "Hydration break",
+      "duration": 5,
+      "deadline": "2026-06-29T09:30",
+      "status": "pending",
+      "aiPriorityLabel": "High",
+      "category": "Health",
+      "priorityScore": 70,
+      "description": "Drink water as requested",
+      "aiSuggestedSlot": "Calculated Slot",
+      "createdAt": "2026-06-29T09:25:43.582Z",
+      "aiReasoning": "Parsed and scheduled via Aibi Voice Assistant.",
+      "energyRequired": "Low",
+      "id": "task-1782725144846",
+      "userId": "usr-g31ku3p8h"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Idea: Build a dark mode telemetry widget using charts.",
+      "id": "note-1",
+      "createdAt": "2026-06-25T10:15:00Z"
+    },
+    {
+      "createdAt": "2026-06-25T10:20:00Z",
+      "id": "note-2",
+      "text": "Remember to drink more water during high warp coding sessions."
+    }
+  ],
+  "reminders": [
+    {
+      "userId": "usr-g31ku3p8h",
+      "completed": true,
+      "createdAt": "2026-06-29T09:29:40.214Z",
+      "title": "drink water",
+      "id": "reminder-1782725380214",
+      "deadline": "2026-06-29T15:00"
+    }
+  ],
+  "trackers": [],
+  "userProfiles": {
+    "usr-g31ku3p8h": {
+      "unlockedBadges": [],
+      "totalFocusHours": 99.2,
+      "xp": 10,
+      "generalInsight": "Knock out that Tiger Zoom meeting now while your energy is peak, then crush your DSA habit before noon.",
+      "peakHours": "Morning (09:00 - 12:00)",
+      "currentEnergy": "High",
+      "level": 1,
+      "streakDays": 21,
+      "focusDuration": 25,
+      "completedQuests": 0,
+      "persona": "business"
+    }
+  },
+  "lifeNodes": [
+    {
+      "title": "hackthon ",
+      "createdAt": "2026-06-27T09:40:39.443Z",
+      "x": 117.28614029088418,
+      "category": "Career",
+      "tags": [],
+      "date": "2026-06-27",
+      "status": "Planned",
+      "y": 198.00945853000928,
+      "id": "node-1782553239443-879",
+      "userId": "usr-5ora64acb",
+      "description": ""
+    },
+    {
+      "y": 194,
+      "id": "node-1-1782554849750",
+      "description": "Started my first professional internship, gaining real-world coding and engineering experience.",
+      "userId": "usr-g31ku3p8h",
+      "createdAt": "2026-06-27T10:07:29.750Z",
+      "title": "First Internship",
+      "category": "Education",
+      "x": 771,
+      "status": "Completed",
+      "date": "2024-06-01",
+      "tags": [
+        "career",
+        "learning"
+      ]
+    },
+    {
+      "id": "node-2-1782554849750",
+      "y": 346,
+      "userId": "usr-g31ku3p8h",
+      "description": "Onboarded as a Full Stack Engineer at Stripe, handling payments infrastructure at global scale.",
+      "createdAt": "2026-06-27T10:07:29.750Z",
+      "title": "Joined Stripe",
+      "status": "Completed",
+      "tags": [
+        "stripe",
+        "engineering",
+        "fintech"
+      ],
+      "date": "2024-11-15",
+      "category": "Career",
+      "x": 140
+    },
+    {
+      "y": 163,
+      "id": "node-3-1782554849750",
+      "userId": "usr-g31ku3p8h",
+      "description": "Relocated to Pune, establishing an ergonomic tech workspace for focused startup collaboration.",
+      "title": "Moved to Pune",
+      "createdAt": "2026-06-27T10:07:29.750Z",
+      "x": 297,
+      "category": "Personal",
+      "tags": [
+        "relocation",
+        "pune",
+        "lifestyle"
+      ],
+      "date": "2025-01-10",
+      "status": "Completed"
+    },
+    {
+      "id": "node-4-1782554849750",
+      "y": 480,
+      "description": "Successfully read 20 high-impact volumes covering product management, deep tech, and mental resilience.",
+      "userId": "usr-g31ku3p8h",
+      "title": "Read 20 Books",
+      "createdAt": "2026-06-27T10:07:29.750Z",
+      "date": "2025-05-15",
+      "tags": [
+        "intellect",
+        "books",
+        "mindset"
+      ],
+      "status": "Completed",
+      "x": 489,
+      "category": "Personal"
+    },
+    {
+      "userId": "usr-g31ku3p8h",
+      "description": "Initiated a disciplined morning endurance running routine to build physical stamina and focus.",
+      "y": 104,
+      "id": "node-5-1782554849750",
+      "x": 544,
+      "category": "Health",
+      "tags": [
+        "fitness",
+        "discipline",
+        "cardio"
+      ],
+      "date": "2026-01-01",
+      "status": "In Progress",
+      "title": "Daily Run",
+      "createdAt": "2026-06-27T10:07:29.750Z"
+    },
+    {
+      "userId": "usr-g31ku3p8h",
+      "description": "Releasing an AI-integrated developer workspace on serverless containers for high performance.",
+      "id": "node-6-1782554849750",
+      "y": 437,
+      "status": "Planned",
+      "date": "2026-10-01",
+      "tags": [
+        "indiehackers",
+        "saas",
+        "launch"
+      ],
+      "category": "SaaS",
+      "x": 606,
+      "createdAt": "2026-06-27T10:07:29.750Z",
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "streakDays": 12,
+    "peakHours": "Morning (09:00 - 12:00)",
+    "currentEnergy": "High",
+    "level": 1,
+    "completedQuests": 1,
+    "focusDuration": 25,
+    "totalFocusHours": 4.2,
+    "xp": 75,
+    "unlockedBadges": [
+      "Cognitive Pioneer"
+    ]
+  },
+  "generalInsight": "Two overdue task vectors are threatening to destabilize our warp drive trajectory. Purge the Q3 financial backlog immediately during this high-energy morning window to avoid total system failure.",
+  "habits": [
+    {
+      "createdAt": "2026-06-27T11:35:19.109Z",
+      "id": "habit-1782560119109",
+      "name": "DSA",
+      "streak": 1,
+      "userId": "usr-g31ku3p8h",
+      "completedDays": [
+        "2026-06-27"
+      ]
+    },
+    {
+      "createdAt": "2026-06-27T11:49:00.358Z",
+      "id": "habit-1782560940358",
+      "userId": "usr-g31ku3p8h",
+      "streak": 1,
+      "completedDays": [
+        "2026-06-27",
+        "2026-06-29"
+      ],
+      "name": "assignment"
+    },
+    {
+      "id": "habit-1782653342128",
+      "createdAt": "2026-06-28T13:29:02.128Z",
+      "name": "sleep at 3",
+      "completedDays": [
+        "2026-06-29"
+      ],
+      "userId": "usr-g31ku3p8h",
+      "streak": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "AppStateSection": {
+      "title": "AppStateSection",
+      "description": "A partitioned section of the database schema stored in Firestore",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "description": "The payload data of the specific section"
+        }
+      },
+      "required": ["data"]
+    }
+  },
+  "firestore": {
+    "/app_state/{sectionId}": {
+      "schema": "AppStateSection",
+      "description": "Unified storage partitions for the application state (users, tasks, notes, etc.)"
+    }
+  }
+}
